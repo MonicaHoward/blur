@@ -1,0 +1,9 @@
+html, body {
+  margin: 5% 10%;
+}
+.l1 {
+  text-align: left;
+}
+.l2 {
+  text-align: center;
+}
