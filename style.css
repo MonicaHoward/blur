@@ -1,9 +1,18 @@
 html, body {
   margin: 5% 10%;
 }
+.intro, .slide-2, .slide-4 {
+  height: 100vh;
+}
 .l1 {
   text-align: left;
 }
-.l2 {
+.l2, .explaination {
   text-align: center;
+}
+/*SECOND SLIDE*/
+.definition {
+  border: 2px dotted black;
+  padding: 3%;
+  width: 300px;
 }
