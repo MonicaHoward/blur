@@ -1,7 +1,7 @@
 html, body {
   margin: 5% 10%;
 }
-.intro, .slide-2, .slide-4 {
+.intro, .slide-2, .slide-3 {
   height: 100vh;
 }
 .l1 {
@@ -13,6 +13,12 @@ html, body {
 /*SECOND SLIDE*/
 .definition {
   border: 2px dotted black;
+  float: left;
   padding: 3%;
+  width: 300px;
+}
+.influencer {
+  margin-left: 15%;
+  float: left;
   width: 300px;
 }
