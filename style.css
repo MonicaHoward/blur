@@ -61,7 +61,7 @@ html, body {
   width: 300px;
 }
 .how-it-works {
-
+  margin-left: 20px;
 }
 .title {
   font-size: 2em;
@@ -117,3 +117,10 @@ html, body {
 /*.pointer-3l p {
   padding-bottom: 3%;
 }*/
+.slide-4 img {
+  text-align: center;
+}
+.slide-4 img{
+  margin: 40%;
+  width: 200px;
+}
