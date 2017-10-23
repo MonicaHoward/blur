@@ -1,24 +1,119 @@
+
 html, body {
-  margin: 5% 10%;
+  margin: 2% 10%;
 }
-.intro, .slide-2, .slide-3 {
+
+.intro, .slide-2, .slide-3, .slide-4 {
   height: 100vh;
 }
 .l1 {
+  font-size: 2em;
   text-align: left;
 }
-.l2, .explaination {
+.l2 {
   text-align: center;
+  font-size: 10em;
+}
+.explaination-l1 {
+  font-size: 3em;
+  text-align: left;
+}
+.explaination-l2 {
+  font-size: 3em;
+  margin-top: -4%;
+  text-align: right;
 }
 /*SECOND SLIDE*/
-.definition {
-  border: 2px dotted black;
+.definition-section {
   float: left;
+}
+.definition {
+  border: 8px dotted black;
+  /*float: left;*/
+  font-size: 2em;
+  line-height: 1.5;
   padding: 3%;
-  width: 300px;
+  width: 375px;
+}
+.follow-up {
+  border: 8px solid black;
+  background: #000;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 3%;
+  width: 375px;
 }
 .influencer {
-  margin-left: 15%;
+  /*margin-top: 4%;*/
+  margin-right: 15%;
+  float: right;
+  width: 300px;
+}
+.influencer img {
+  width: 600px;
+}
+.slide-3 {
+  margin-top: 20%;
+}
+.phone img {
   float: left;
   width: 300px;
 }
+.how-it-works {
+
+}
+.title {
+  font-size: 2em;
+}
+.pointer {
+    width: 500px;
+    height: 100px;
+    position: relative;
+    background: lightgray;
+    float: left;
+    margin-bottom: 2%;
+  }
+  .pointer:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 50px solid white;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+  }
+  .pointer:before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 50px solid lightgray;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+  }
+.pointer p{
+  font-size: 1.25em;
+  margin-left: 3%;
+  width: 400px;
+}
+
+/*.pointer {
+  margin-left: 3%;
+  padding: 3%;
+  text-align: left;
+  width: 400px;
+}*/
+/*.pointer-1l p{
+  padding: 4%;
+}
+.pointer-2l p {
+  padding: 3%;
+}*/
+/*.pointer-3l p {
+  padding-bottom: 3%;
+}*/
