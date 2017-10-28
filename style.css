@@ -49,9 +49,10 @@ table {
 /*END OF CSS RESET*/
 /*BEGINNING OF CUSTOM CSS*/
 
-.intro, .slide-3, .slide-4 {
+.intro, .slide-3, .slide-4{
   font-family: 'Fjalla One', sans-serif;
   height: 100vh;
+  position: relative;
 }
 /*FIRST SECTION*/
 .intro {
@@ -107,7 +108,7 @@ table {
 .future {
   font-size: 3em;
   line-height: 1.25;
-  margin: 10% 5%;
+  margin: 10%;
   text-align: left;
 }
 /*THIRD SLIDE*/
@@ -133,18 +134,33 @@ table {
   width: 71%;
 }
 .slide-4 {
-  background: #498431;
+  background-color: rgba(125, 202, 92, 0.6);
   font-family: 'Raleway', sans-serif;
   height: 20vh;
   color: #999;
+  position: absolute;
+  width: 100%;
+}
+.line {
+  margin: 4%;
 }
 .last-line {
   border-top: 1px solid #FFF;
   color: #FFF;
-  margin: auto 10%;
+  margin: 0 10%;
+  padding: 1%;
+  position: relative;
   /*text-align: left;*/
-  z-index: 99;
 }
+.app-store-2 {
+  border: 1px solid #FFF;
+  border-radius: 6px;
+  float: right;
+  font-size: .5em;
+  margin-left: 1%;
+  padding: 1%;
+}
+
 /*.explaination-l2 {
   font-size: 3em;
   margin-top: -4%;
