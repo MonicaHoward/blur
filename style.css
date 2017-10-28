@@ -91,9 +91,6 @@ table {
   margin-left: 1%;
   padding: 1%;
 }
-.app-store:hover {
-  border: 2px solid red;
-}
 .l2 {
   color: #FFF;
   padding-top: 5%;
@@ -101,7 +98,7 @@ table {
   font-size: 10em;
 }
 /*SECOND SLIDE*/
-.slide-2 {
+.slide-2, {
   font-family: 'Raleway', sans-serif;
   height: 20vh;
   color: #999;
@@ -109,11 +106,45 @@ table {
 }
 .future {
   font-size: 3em;
-  margin: 10%;
+  line-height: 1.25;
+  margin: 10% 5%;
   text-align: left;
 }
 /*THIRD SLIDE*/
-
+.slide-3 {
+  background-color: rgba(125, 202, 92, 0.5);
+}
+.slide-3-left {
+  border: 1px solid #FFF;
+  border-radius: 6px;
+  font-size: 1.5em;
+  line-height: 2;
+  margin: 10%;
+  padding: 2%;
+  float: left;
+  width: 15%;
+}
+.slide-3-right {
+  float: left;
+  width: 60%;
+}
+.slide-3-right img {
+  margin: 10%;
+  width: 71%;
+}
+.slide-4 {
+  background: #498431;
+  font-family: 'Raleway', sans-serif;
+  height: 20vh;
+  color: #999;
+}
+.last-line {
+  border-top: 1px solid #FFF;
+  color: #FFF;
+  margin: auto 10%;
+  /*text-align: left;*/
+  z-index: 99;
+}
 /*.explaination-l2 {
   font-size: 3em;
   margin-top: -4%;
