@@ -50,6 +50,7 @@ table {
 /*BEGINNING OF CUSTOM CSS*/
 
 .intro, .slide-2, .slide-3, .slide-4 {
+  font-family: 'Fjalla One', sans-serif;
   height: 100vh;
 }
 .intro {
@@ -73,14 +74,25 @@ table {
   z-index: -1;
 }
 .l1 {
+  border-bottom: 1px solid #FFF;
   color: #FFF;
   font-size: 2em;
-  padding: 10%;
+  margin: 5% 10%;
+  padding: 2%;
   text-align: left;
   z-index: 99;
 }
+.download {
+  border: 1px solid #FFF;
+  border-radius: 6px;
+  float: right;
+  font-size: .5em;
+  margin-left: 1%;
+  padding: 1%;
+}
 .l2 {
   color: #FFF;
+  padding-top: 5%;
   text-align: center;
   font-size: 10em;
 }
