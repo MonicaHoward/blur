@@ -120,7 +120,7 @@ table {
   border: 1px solid #FFF;
   border-radius: 6px;
   font-size: 1.5em;
-  line-height: 2;
+  line-height: 20;
   margin: 10%;
   padding: 2%;
   float: left;
@@ -133,6 +133,7 @@ table {
 .slide-3-right img {
   margin-top: 10%;
 	margin-right: 10%;
+	margin-bottom: 0%;
 	margin-left: 10%;
   width: 71%;
 }
