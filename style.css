@@ -97,6 +97,7 @@ table {
   padding-top: 5%;
   text-align: center;
   font-size: 10em;
+	line-height: 2;
 }
 /*SECOND SLIDE*/
 .slide-2, {
@@ -130,7 +131,9 @@ table {
   width: 60%;
 }
 .slide-3-right img {
-  margin: 10%;
+  margin-top: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
   width: 71%;
 }
 .slide-4 {
