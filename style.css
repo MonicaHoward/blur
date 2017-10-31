@@ -57,6 +57,7 @@ table {
 /*FIRST SECTION*/
 .intro {
   background-image: url('downtown.jpg');
+	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,19 +86,22 @@ table {
   z-index: 99;
 }
 .app-store {
-  border: 1px solid #FFF;
-  border-radius: 6px;
+	background: rgba(255, 255, 255, .9);
+	color: rgba(125, 202, 92, 0.9);
+  border-radius: 4px;
   float: right;
   font-size: .5em;
   margin-left: 1%;
   padding: 1%;
+}
+.app-store:hover {
+	background-color: #FFF;
 }
 .l2 {
   color: #FFF;
   padding-top: 5%;
   text-align: center;
   font-size: 10em;
-	line-height: 2;
 }
 /*SECOND SLIDE*/
 .slide-2, {
