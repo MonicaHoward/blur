@@ -134,13 +134,19 @@ table {
   padding: 1%;
 	text-shadow: none;
 }
-
-.l2 {
+.logo{
+	width: 50%;
+	text-align: center;
+	padding: 8% 0;
+	margin: 0 auto;
+	display: block;
+}
+/*.l2 {
   color: #FFF;
   padding-top: 5%;
   text-align: center;
   font-size: 10em;
-}
+}*/
 
 /*SECOND SLIDE*/
 .NEW-BACKGROUND {
