@@ -6,17 +6,17 @@
     });
 }.call(this));
 
-var whichImage = "clear";
+var whichImage = "c";
 
 function change() {
   var image = document.getElementById('clear');
   if(whichImage == 'clear') {
     image.src = 'blurry.png';
-    whichImage = 'blur';
+    whichImage = 'b';
   }
   else {
     image.src = 'clear.png';
-    whichImage = 'clear';
+    whichImage = 'c';
   }
 }
 

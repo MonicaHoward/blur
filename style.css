@@ -48,15 +48,11 @@ table {
 }
 /*END OF CSS RESET*/
 /*BEGINNING OF CUSTOM CSS*/
-
-.intro {
-  font-family: 'Fjalla One', sans-serif;
-  height: 100vh;
-  position: relative;
-}
 /*FIRST SECTION*/
 .intro {
-  /*background-image: url('downtown.jpg');*/
+	font-family: 'Fjalla One', sans-serif;
+  height: 100vh;
+  position: relative;
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,13 +80,12 @@ table {
 .clear {
 	overflow: hidden;
 	position: fixed;
-
 }
 .blur {
 	overflow: hidden;
 	position: relative;
-    opacity: 0;
-    filter: alpha(opacity=0);
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 .overlay:before{
   position: absolute;
@@ -130,8 +125,6 @@ table {
 	margin: 0 auto;
 	display: block;
 }
-
-
 /*SECOND SLIDE*/
 .NEW-BACKGROUND {
 	background: #FFF;
@@ -141,7 +134,6 @@ table {
   font-family: 'Raleway', sans-serif;
   height: 20vh;
   color: #FFF;
-  /*margin: auto 10%;*/
 	z-index: 99;
 }
 .future {
@@ -177,7 +169,6 @@ table {
 	margin-top: 10%;
 	text-align: center;
 }
-
 .slide-4 {
   background-color: rgba(125, 202, 92, 0.6);
   font-family: 'Raleway', sans-serif;
@@ -192,10 +183,8 @@ table {
 .last-line {
   border-top: 1px solid #FFF;
   color: #FFF;
-
   padding: 1%;
   position: relative;
-
 }
 .app-store-2 {
   border: 1px solid #FFF;
