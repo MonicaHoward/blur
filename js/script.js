@@ -11,7 +11,7 @@ var whichImage = "clear";
 function change() {
   var image = document.getElementById('clear');
   if(whichImage == 'clear') {
-    image.src = 'blur.png';
+    image.src = 'blurry.png';
     whichImage = 'blur';
   }
   else {
