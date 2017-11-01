@@ -104,9 +104,14 @@ table {
   font-size: 2em;
   margin: 5% 10%;
   padding: 2%;
+	position: relative;
   text-align: left;
 	text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
   z-index: 99;
+}
+.logo {
+	position: relative;
+	z-index: 99;
 }
 .app-store {
 	background: rgba(255, 255, 255, .9);
