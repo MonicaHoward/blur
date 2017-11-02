@@ -137,15 +137,33 @@ table {
 .slide-2, {
 	background: #FFF;
   font-family: 'Raleway', sans-serif;
-  height: 20vh;
-  color: #FFF;
+  height: 100vh;
+	overflow: auto;
 	z-index: 99;
 }
+/*.icons {
+	border: 1px solid green;
+	text-align: center;
+}
+.icon-container {
+	border: 1px solid orange;
+	margin: 5%;
+	text-align: center;
+	width: 10%;
+}
+.icon {
+	display: inline-block;
+	float:left;
+	margin: 10% 10% auto 10%;
+	width: 5%;
+}*/
 .future {
-  font-size: 3em;
+	clear: both;
+	color: gray;
+  font-size: 2em;
   line-height: 1.25;
   padding: 10%;
-  text-align: left;
+  text-align: center;
 }
 /*THIRD SLIDE*/
 .slide-3 {
