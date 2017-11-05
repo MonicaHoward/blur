@@ -97,37 +97,27 @@ table {
   background-color: rgba(125, 202, 92, 0.5);
   z-index: 99;
 }
-.l1 {
-  border-bottom: 2px solid #FFF;
-  color: #FFF;
-  font-size: 2em;
-  margin: 5% 10%;
-  padding: 2%;
-	position: relative;
-  text-align: left;
-	text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
-  z-index: 99;
-}
-.logo {
-	position: relative;
-	z-index: 99;
-}
 .app-store {
 	background: rgba(255, 255, 255, .9);
 	color: rgba(125, 202, 92, 0.9);
   border-radius: 4px;
   float: right;
-  font-size: .5em;
-  margin-left: 1%;
+  font-size: 1em;
+	margin: 5% 10%;
   padding: 1%;
 	text-shadow: none;
 }
 .logo{
-	width: 50%;
+	/*width: 50%;*/
 	text-align: center;
-	padding: 8% 0;
+	padding-top: 20%;
 	margin: 0 auto;
-	display: block;
+	width: 70%
+}
+.logo img {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
 }
 /*SECOND SLIDE*/
 .NEW-BACKGROUND {
@@ -167,6 +157,20 @@ table {
   padding: 2% 0;
   float: left;
   width: 40%;
+}
+.animated-text {
+	animation: fadeAndScale .3s ease-in;
+}
+@@keyframes fadeAndScale  {
+	from {
+		opacity: 0;
+		transform: scale3d(.75, .75, 1);
+	}
+	to {
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
+
 }
 .slide-3-right {
 	float: right;
