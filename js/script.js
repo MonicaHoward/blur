@@ -1,3 +1,4 @@
+// FIRST SLIDE BLUR TRICK
 (function () {
     $(window).scroll(function () {
         var oVal;
@@ -6,6 +7,7 @@
     });
 }.call(this));
 
+// SlIDE FOUR ANIMATION
 var whichImage = "clear";
 
 function change() {
@@ -19,5 +21,4 @@ function change() {
     whichImage = 'clear';
   }
 }
-
 setInterval('change()', 1000);
