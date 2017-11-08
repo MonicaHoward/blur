@@ -182,76 +182,25 @@ body {
 	text-align: center;
 }
 /*FOURTH SECTION*/
-.slide-5 {
-	background-color: rgba(125, 202, 92, 0.6);
-	height: 60vh;
-	width: 100vw;
-	text-align: center;
-	margin: 0 auto;
-
+.slide-4 {
+	padding: 10% 0 0 10%;
+	background-color: rgba(125, 202, 92, 0.7);
+	height: 100vh;
+	/*width: 100vw;*/
 }
-.first-user {
-	color: gray;
-  font-size: 2em;
-	padding-top: 5%;
-}
-form {
-
-	padding: 5%;
-}
-input[type=text], button {
-    background-color: #3CBC8D;
-		border: none;
-		border-radius: 6px;
-    color: white;
-		font-size: 1.5em;
-		margin: 1%;
-		padding: 1%;
-	}
-/*FIFTH SECTION*/
-.slide-4, .slide-6 {
-  background-color: rgba(125, 202, 92, 0.7);
-  font-family: 'Raleway', sans-serif;
-  height: 20vh;
-  color: #999;
-  position: relative;
-  width: 100%;
-}
-.line {
-  padding: 4%;
-}
-.last-line {
-  border-top: 1px solid #FFF;
-  color: #FFF;
-  padding: 1%;
-  position: relative;
-}
-.app-store-2 {
-  border: 1px solid #FFF;
-  border-radius: 6px;
-  float: right;
-  font-size: .5em;
-  margin-left: 1%;
-  padding: 1%;
-}
-
-
-
-
-
 .rw-words{
+	margin: -25% auto auto 5%;
+	padding-right: 10%;
 	display: block;
 	font-size: 3em;
-	line-height: 2.5;
+	line-height: -2.5;
 	text-align: center;
-	 color: gray;
-	 font-family: 'Fjalla One', sans-serif;
+	color: gray;
+ 	font-family: 'Fjalla One', sans-serif;
 }
-
 /* Animated Text Effect */
-
 .rw-words-1 div{
-  display: inline-block;
+  /*display: inline-block;*/
 	position: absolute;
 	opacity: 0;
   overflow: hidden;
@@ -341,3 +290,79 @@ input[type=text], button {
 	80% { opacity: 0; }
     100% { opacity: 0; }
 }
+.instructions {
+	float: right;
+	font-size: 2em;
+	line-height: 2;
+	margin-top: -7%;
+	padding-right: 20%;
+
+
+}
+.slide-5 {
+	background-color: rgba(125, 202, 92, 0.6);
+	height: 60vh;
+	/*width: 100vw;*/
+	text-align: center;
+	margin: 0 auto;
+
+}
+.first-user {
+	color: gray;
+  font-size: 2em;
+	padding-top: 5%;
+}
+form {
+
+	padding: 5%;
+}
+input[type=text], button {
+    background-color: #3CBC8D;
+		border: none;
+		border-radius: 6px;
+    color: white;
+		font-size: 1.5em;
+		margin: 1%;
+		padding: 1%;
+	}
+/*FIFTH SECTION*/
+.slide-6 {
+  background-color: rgba(125, 202, 92, 0.7);
+  font-family: 'Raleway', sans-serif;
+  height: 20vh;
+  color: #999;
+  position: relative;
+  width: 100%;
+}
+.line {
+  padding: 4%;
+}
+.last-line {
+  border-top: 1px solid #FFF;
+  color: #FFF;
+  padding: 1%;
+  position: relative;
+}
+.app-store-2 {
+  border: 1px solid #FFF;
+  border-radius: 6px;
+  float: right;
+  font-size: .5em;
+  margin-left: 1%;
+  padding: 1%;
+}
+
+
+
+
+
+.rw-words{
+	display: block;
+	font-size: 3em;
+	line-height: 2.5;
+	text-align: center;
+	 color: gray;
+	 font-family: 'Fjalla One', sans-serif;
+}
+
+/* Animated Text Effect */
