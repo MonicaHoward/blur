@@ -325,6 +325,15 @@ input[type=text], button {
 		margin: 1%;
 		padding: 1%;
 	}
+.about {
+	font-size: 1.2em;
+	line-height: 2;
+	padding: 10%;
+	text-align: center;
+}
+.about-info {
+	text-align: center;
+}
 /*FIFTH SECTION*/
 .slide-6 {
   background-color: rgba(125, 202, 92, 0.7);
@@ -356,13 +365,5 @@ input[type=text], button {
 
 
 
-.rw-words{
-	display: block;
-	font-size: 3em;
-	line-height: 2.5;
-	text-align: center;
-	 color: gray;
-	 font-family: 'Fjalla One', sans-serif;
-}
 
 /* Animated Text Effect */
