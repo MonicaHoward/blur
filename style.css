@@ -152,33 +152,20 @@ body {
   border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	color: #000;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 2;
-	margin: 10% auto auto 10%;
+	margin: 15% auto auto 15%;
   padding: 2% 0;
   float: left;
-  width: 40%;
+  width: 30%;
 }
-.animated-text {
-	animation: fadeAndScale .3s ease-in;
-}
-@@keyframes fadeAndScale  {
-	from {
-		opacity: 0;
-		transform: scale3d(.75, .75, 1);
-	}
-	to {
-		opacity: 1;
-		transform: scale3d(1, 1, 1);
-	}
 
-}
 .slide-3-right {
 	float: right;
   width: 40%;
 }
 .slide-3-right img {
-	margin-top: 10%;
+	margin: 15% 15% auto auto;
 	text-align: center;
 }
 /*FOURTH SECTION*/
